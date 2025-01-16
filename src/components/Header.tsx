@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Container } from "./Container";
 import { Menu, Search, ShoppingBag, X } from 'lucide-react';
 import Button from "./Button";
@@ -59,16 +59,16 @@ const Header = () => {
           {/* Icons */}
           <div className="flex items-center gap-4">
             <button className="text-sm hover:opacity-80 transition-opacity">
-              <Search className="w-5 h-5" />
+              <Search className="w-5 h-5" />.
             </button>
             <button className="text-sm hover:opacity-80 transition-opacity">
-              <ShoppingBag className="w-5 h-5" />
+              <ShoppingBag className="w-5 h-5" />.
             </button>
             <button 
               className="text-sm md:hidden hover:opacity-80 transition-opacity"
               onClick={() => setIsMenuOpen(true)}
             >
-              <Menu className="w-6 h-6" />
+              <Menu className="w-6 h-6" />.
             </button>
           </div>
         </Container>
