@@ -5,7 +5,6 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
-import { div } from "framer-motion/client";
 import { useMemo, useRef, useState } from "react";
 import { useWindowSize } from "react-use";
 import Button from "../Button";
